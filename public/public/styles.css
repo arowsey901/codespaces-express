@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: #222;
+  background: #7bacd36a;
   color: #fff;
   padding: 1rem;
   text-align: center;
@@ -58,5 +58,11 @@ footer {
   form input, form textarea {
     width: 100%;
     margin-bottom: 1rem;
+  }
+  .site-logo {
+    max-width: 200px;
+    height: auto;
+    display:block;
+    margin: 0 auto;
   }
 }
