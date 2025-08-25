@@ -29,6 +29,9 @@ app.get('/contact', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'public/public/contact.html'));
 })
 
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
