@@ -8,15 +8,16 @@ body {
 
 header {
   background: #7bacd36a;
-  color: #fff;
+  color: #1761b5;
   padding: 1rem;
   text-align: center;
 }
 
 nav a {
   margin: 0 1rem;
-  color: #fff;
-  text-decoration: none;
+  color: #1761b5;
+  text-decoration: #222;
+  font-weight: bold;
 }
 
 section {
